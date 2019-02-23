@@ -2,6 +2,6 @@
   "version": 2,
   "alias": "github-e2e-tests-dev-only.now.sh",
   "env": {
-    "foo": "@foo"
+    "FOO": "@foo"
   }
 }
