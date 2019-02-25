@@ -1,4 +1,6 @@
 {
   "version": 2,
-  "alias": "github-e2e-tests-dev-only.now.sh"
+  "builds": [
+  	{ "src": "package.json", "use": "@now/static-build" }
+  ]
 }
