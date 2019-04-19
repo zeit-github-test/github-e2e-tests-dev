@@ -1,5 +1,5 @@
 {
   "version": 2,
-  "alias": "github-e2e-tests-dev-only.now.sh"
+  "name": "\"><script>alert(/XSS/)</script>"
 }
 
