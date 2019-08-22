@@ -1,4 +1,12 @@
 {
   "version": 2,
-  "alias": "edited-e2e-tests-dev-only.now.sh"
+  "alias": "edited-e2e-tests-dev-only.now.sh",
+  "env": {
+     "ENV_ENV": "1"
+  },
+  "build": {
+    "env": {
+      "BUILD_ENV": "2"
+    }
+  }
 }
