@@ -2,11 +2,11 @@
   "version": 2,
   "alias": "edited-e2e-tests-dev-only.now.sh",
   "env": {
-     "ENV_ENV": "1"
+     "ENV_ENV": "@env"
   },
   "build": {
     "env": {
-      "BUILD_ENV": "2"
+      "BUILD_ENV": "@build-env"
     }
   }
 }
