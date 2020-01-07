@@ -1,5 +1,8 @@
 {
   "scripts": {
     "now-build": "sleep 15 && mkdir ./dist && cp ./index.html ./dist"
+  },
+  "engines": {
+    "node": "12.x"
   }
 }
