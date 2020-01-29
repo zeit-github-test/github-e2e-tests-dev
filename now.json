@@ -1,1 +1,12 @@
-{"version":2,"alias":"z-github-e2e-tests-dev-only.now.sh"}
+{
+  "version": 2,
+  "alias": "edited-e2e-tests-dev-only.now.sh",
+  "env": {
+     "ENV_ENV": "@env"
+  },
+  "build": {
+    "env": {
+      "BUILD_ENV": "@build-env"
+    }
+  }
+}
