@@ -1,5 +1,8 @@
 {
-  "github": {
-    "enabled": false
-  }
+  "builds": [
+    {
+      "use": "@now/static",
+      "src": "*.html"
+    }
+  ]
 }
