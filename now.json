@@ -1,6 +1,4 @@
 {
   "version": 2,
-  "builds": [
-    { "src": "noop.js", "use": "@now/node" }
-  ]
+  "meta": "this cannot be a string"
 }
