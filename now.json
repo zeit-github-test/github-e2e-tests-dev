@@ -1,4 +1,6 @@
 {
   "version": 2,
-  "meta": "this cannot be a string"
+  "env": {
+    "ENV": "@this-is-not-a-secret"
+  }
 }
